@@ -1,96 +1,193 @@
-# Hariteja Chintakunta
+Hariteja Chintakunta
+Senior QA Engineer | PEGA Specialist | Test Automation Engineer
 
-**QA Engineer — PEGA & Appian Testing | Playwright • TypeScript • REST Assured**
+12 Years in Quality Assurance | 9+ Years in PEGA Testing
 
-> TEST REPORT — Profile under test: Hariteja · Status: Open to Work · Last updated: November 2026
->
-> No badges. No contribution graphs. No "currently learning" list.
-> The work is below. Run it.
+About Me
 
-## Test summary
+I am a QA Engineer with 12 years of experience building and validating enterprise applications across Healthcare, Insurance, Banking, and Fleet Management domains.
 
-| Field | Result |
-|---|---|
-| Experience | 12 years in QA, 9+ years testing PEGA applications |
-| Domains | Healthcare, insurance, banking, fleet management |
-| Current role | Senior Technical Consultant, Perficient India (Jan 2026 – Present) |
-| Current project | Healthfirst PEGA migration — 18 apps, AWS → PEGA Cloud, 4 months, 8 go-lives, team of 8 |
-| Now building | Playwright + TypeScript, REST Assured + Java, Selenium + TestNG |
-| Open to | Pega Tester · Pega Automation Engineer · Gen AI Tester — Hyderabad \| Remote · Immediate joiner |
+My core expertise is in PEGA testing, including functional testing, integration testing, migration testing, regression testing, and UAT support for large-scale enterprise programs.
 
-## Coverage — what I test
+I am currently expanding into modern automation using:
 
-- **PEGA & Appian (low-code)** — business rules, case flows, data, integrations, UAT, migration testing
-- **Web UI** — Playwright + TypeScript, Selenium + Java
-- **APIs** — REST Assured + Java, Postman
-- **Migration** — functional parity, data integrity, regression across 18 applications
-- **Accessibility & visual** — axe-core scans, screenshot baselines
+Playwright + TypeScript
+Selenium + Java
+REST Assured + Java
+API Testing
+Accessibility Testing
+Visual Testing
 
-## Evidence — the repos
+I believe in one principle:
 
-### 1. [playwright-capstone](https://github.com/Hariteja-Chintakunta/playwright-capstone) — TypeScript + Playwright
+Don't trust a skill listed on a profile. Trust code you can run.
 
-E-commerce automation on AutomationExercise. 10 spec files, 9 page classes, custom fixtures, cross-browser (Chromium, Firefox, WebKit), axe-core accessibility scans, visual regression with baselines, network mocking, typed `.env` config. Covers login, registration, search, cart, checkout, invoice download, contact form.
+Current Role
 
-Run it:
+Senior Technical Consultant | Perficient India
 
-```bash
+Healthfirst PEGA Migration Program
+18 enterprise applications
+AWS → PEGA Cloud migration
+8 successful production go-lives
+Team of 8 QA engineers
+End-to-end migration validation
+Functional parity testing
+Data integrity verification
+Regression testing
+Technical Skills
+QA & Testing
+Functional Testing
+Regression Testing
+Integration Testing
+System Testing
+User Acceptance Testing
+Migration Testing
+Accessibility Testing
+Automation
+Playwright
+Selenium WebDriver
+TestNG
+REST Assured
+Postman
+Languages
+TypeScript
+Java
+SQL
+Tools
+GitHub
+Azure DevOps
+Jira
+Allure Reports
+Extent Reports
+Featured Projects
+Playwright Automation Framework
+
+Repository: playwright-capstone
+
+Highlights
+
+✅ Playwright + TypeScript
+
+✅ Page Object Model
+
+✅ Custom Fixtures
+
+✅ Cross-Browser Testing
+
+✅ Accessibility Testing using axe-core
+
+✅ Visual Regression Testing
+
+✅ Network Mocking
+
+✅ Environment Configuration
+
+Covered Scenarios
+User Registration
+Login
+Product Search
+Shopping Cart
+Checkout Flow
+Contact Form
+Invoice Download
+Shell
 npm ci
 npx playwright test
-```
+Selenium Automation Framework
 
-### 2. [Selenium-Capstone](https://github.com/Hariteja-Chintakunta/Selenium-Capstone) — Java + Selenium + TestNG
+Repository: Selenium-Capstone
 
-SauceDemo framework. 46 tests, 8 modules, 9 page classes, Page Object Model, explicit waits only, retry once, parallel 3 threads, Extent + Allure reports, 62 assertions.
+Highlights
 
-Run it:
+✅ Java + Selenium + TestNG
 
-```bash
+✅ Page Object Model
+
+✅ Parallel Execution
+
+✅ Retry Mechanism
+
+✅ Explicit Waits
+
+✅ Allure Reports
+
+✅ Extent Reports
+
+✅ 46 Automated Tests
+
+✅ 62 Assertions
+
+Shell
 mvn clean test
-```
+REST Assured API Framework
 
-Expect `Tests run: 46, Failures: 1`. The 1 failure is deliberate — see below.
+Repository: restassured-capstone
 
-### 3. [restassured-capstone](https://github.com/Hariteja-Chintakunta/restassured-capstone) — Java + REST Assured + TestNG
+Highlights
 
-API starter suite: 3 tests — list posts, post details, search. Small on purpose; it is the base the bigger suite grows from.
+✅ REST Assured
 
-Run it:
+✅ Java
 
-```bash
+✅ TestNG
+
+✅ API Validation
+
+✅ Response Assertions
+
+✅ Schema Validation
+
+Shell
 mvn test
-```
+Engineering Principles
+Build Tests That Explain Failures
 
-## Defects found — the part most profiles hide
+A failed test should provide:
 
-**The alwaysRun bug.** First run of the Selenium framework: 37 tests failed in 3 seconds with `NullPointerException`. Cause: TestNG silently skips inherited `@BeforeMethod` setup when `testng.xml` uses group filtering, so `setUp()` never ran. Fix: `alwaysRun = true` on the setup methods. Lesson: a framework bug looks exactly like 37 broken tests.
+Screenshot
+Trace
+Logs
+Meaningful Error Message
+Avoid Fragile Automation
 
-**The deliberate failure.** `LoginTest.validLoginRedirectsToDashboard` expects the title "Dashboard". The real title is "Products". I kept it failing on purpose — to show the screenshot, the report, and how a failure is explained instead of hidden.
+❌ Thread.sleep()
 
-## Known limitations — read this before you hire me
+✅ Auto Waiting
 
-- I do **not** claim 3 years of production Playwright. My production experience is 12 years of QA, mostly PEGA and manual testing. My Playwright work is the capstone above — open it and run it.
-- I have **not** shipped a production LLM evaluation harness. I test AI-assisted features with golden datasets and pass/flag decisions, and I use GenAI tools inside QA work.
-- The REST Assured repo is a **starter** (3 tests). The full suite is in progress.
+✅ Explicit Waits
 
-## How I work
+✅ Web-First Assertions
 
-- One test, one job. Every test sets up its own data and cleans up after itself.
-- No `Thread.sleep`, no fixed waits. Auto-waiting and web-first assertions, or the test is wrong.
-- A failure must explain itself: screenshot, trace, and a report — or it is not a finished test.
-- If the page changes, one file changes. That is the whole point of the Page Object Model.
+Keep Maintenance Simple
 
-## Now building
+When the UI changes:
 
-- Playwright 20-hour hands-on plan — Hour 1 next (setup + first green run)
-- REST Assured suite — Hours 1–2 packs written (JSONPlaceholder, specs, POJOs, schema checks), first laptop run pending
-- TypeScript fluency sprint (10 hours)
+Fix one locator in one place and the entire suite continues to work.
 
-## Contact
+Currently Learning
+Advanced Playwright Framework Design
+TypeScript for Test Automation
+REST Assured Advanced API Testing
+AI-Assisted Quality Engineering
+GenAI Testing Concepts
+Open To Opportunities
 
-- LinkedIn: https://www.linkedin.com/in/chintakunta-hariteja/
-- Email: haritejac@hotmail.com
-- Location: Hyderabad | Remote
+Roles
 
----
-*12 years finding bugs in other people's software. Now I write the tests that find them automatically.*
+Senior QA Engineer
+PEGA Tester
+PEGA QA Lead
+Automation Test Engineer
+SDET
+GenAI Tester
+
+Location
+
+Hyderabad
+Remote
+Immediate Joiner
+Connect With Me
+LinkedIn: Hariteja Chintakunta
+Email: haritejac@hotmail.com
+
