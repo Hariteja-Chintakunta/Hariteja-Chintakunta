@@ -1,3 +1,5 @@
+View my portfolio: https://hariteja-chintakunta.github.io/
+
 *QA Engineer — PEGA & Appian Testing | Playwright • TypeScript • REST Assured**
 
 > TEST REPORT — Profile under test: Hariteja · Status: Open to Work · Last updated: November 2026
