@@ -80,12 +80,6 @@ mvn test
 - A failure must explain itself: screenshot, trace, and a report — or it is not a finished test.
 - If the page changes, one file changes. That is the whole point of the Page Object Model.
 
-## Now building
-
-- Playwright 20-hour hands-on plan — Hour 1 next (setup + first green run)
-- REST Assured suite — Hours 1–2 packs written (JSONPlaceholder, specs, POJOs, schema checks), first laptop run pending
-- TypeScript fluency sprint (10 hours)
-
 ## Contact
 
 - LinkedIn: https://www.linkedin.com/in/chintakunta-hariteja/
