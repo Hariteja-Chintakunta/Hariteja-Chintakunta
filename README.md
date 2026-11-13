@@ -1,11 +1,23 @@
 View my portfolio: https://hariteja-chintakunta.github.io/
 
-*QA Engineer — PEGA & Appian Testing | Playwright • TypeScript • REST Assured**
+# Hariteja Chintakunta
 
-> TEST REPORT — Profile under test: Hariteja · Status: Open to Work · Last updated: November 2026
->
-> No badges. No contribution graphs. No "currently learning" list.
-> The work is below. Run it.
+**Senior QA Engineer | Pega Specialist | Automation Engineer**
+
+**12 Years Breaking Software Before Customers Do**
+
+Pega • Playwright • TypeScript • Selenium • REST Assured • API Testing • MCP • Migration Testing
+
+Most QA profiles tell you what someone knows. This one shows you what can be run, verified, and challenged.
+
+12 years in Quality Assurance.
+9+ years testing mission-critical Pega applications across healthcare, insurance, banking, and fleet management.
+
+Right now, I’m leading quality validation for a large-scale Pega migration: 18 applications, 8 production go-lives, an AWS-to-Pega Cloud transformation, and a team of 8 testers.
+
+Alongside that, I’m building Playwright and REST API automation for my project. I’ve completed proofs of concept with both and am now exploring how MCP (Model Context Protocol) can connect AI tools to these test workflows.
+
+Every framework in my repositories is public. Every claim can be executed. Every failure can be reproduced.
 
 ## Test summary
 
@@ -82,29 +94,3 @@ mvn test
 
 ---
 *12 years finding bugs in other people's software. Now I write the tests that find them automatically.*
-
-
-
-
-Yes. The content is already strong, but it still reads slightly like a résumé. If your goal is to stand out against hundreds of LinkedIn profiles and make recruiters, hiring managers, and QA leads stop scrolling, make it more direct, evidence-driven, and unapologetically confident.
-
-Hariteja Chintakunta
-Senior QA Engineer | PEGA Specialist | Automation Engineer
-12 Years Breaking Software Before Customers Do
-PEGA • Playwright • TypeScript • Selenium • REST Assured • API Testing • Migration Testing
-
-Most QA profiles tell you what they know.
-
-This profile shows you what can be run, verified, and challenged.
-
-12 years in Quality Assurance.
-
-9+ years testing mission-critical PEGA applications across healthcare, insurance, banking, and fleet-management platforms.
-
-Currently leading quality validation for a large-scale PEGA migration involving 18 applications, 8 production go-lives, AWS-to-PEGA Cloud transformation, and a team of 8 testers.
-
-Every framework below is public.
-
-Every claim can be executed.
-
-Every failure can be reproduced
