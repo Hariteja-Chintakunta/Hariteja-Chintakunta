@@ -67,12 +67,6 @@ mvn test
 
 **The deliberate failure.** `LoginTest.validLoginRedirectsToDashboard` expects the title "Dashboard". The real title is "Products". I kept it failing on purpose — to show the screenshot, the report, and how a failure is explained instead of hidden.
 
-## Known limitations — read this before you hire me
-
-- I do **not** claim 3 years of production Playwright. My production experience is 12 years of QA, mostly PEGA and manual testing. My Playwright work is the capstone above — open it and run it.
-- I have **not** shipped a production LLM evaluation harness. I test AI-assisted features with golden datasets and pass/flag decisions, and I use GenAI tools inside QA work.
-- The REST Assured repo is a **starter** (3 tests). The full suite is in progress.
-
 ## How I work
 
 - One test, one job. Every test sets up its own data and cleans up after itself.
